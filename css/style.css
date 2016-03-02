@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Calibri, Arial;
+    background-image: url("../imgs/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-weight:normal;
+    text-align:center;
+    font-size: 25px;
+}
+h4{
+    font-weight:normal;
+    margin:3px 0px;
+    text-align:center;
+    font-size: 35px;
+}
+
+#arrow_left_chart{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 40%;
+    left: 50px;
+}
+
+#arrow_right_home{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 40%;
+    left: 1300px;
+}

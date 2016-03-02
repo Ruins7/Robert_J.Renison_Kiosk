@@ -1,0 +1,84 @@
+body{
+    background-image: url("../imgs/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#mainbox{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+    text-align: center;
+    float: left;
+    
+}
+
+.boxs{
+    background-color:aliceblue;
+    width: 400px;
+    height: auto;
+    text-align: left;
+    box-shadow: -3px -3px 10px #000;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    margin: 30px 10px 10px 45px;
+    word-break:normal;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#main_img{
+    height: 400px;
+    width: auto;
+    margin-top: 110px;
+    margin-left: 200px;
+    float: left;
+    margin-bottom: 50px;
+    box-shadow: -3px -3px 10px #111;
+    border-radius: 7px;
+}
+
+#bott{
+    height: 150px;
+    width:70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+#bott img{
+    height: 100px;
+    width: 33.3%;
+    float: left;
+}
+
+#arrow_left_home{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 40%;
+    left: 50px;
+}
+
+#arrow_right_puzzle{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 40%;
+    left: 1300px;
+}
+
+img{
+    cursor:pointer;
+}
+
+div{
+    cursor:pointer;
+}
+ 
